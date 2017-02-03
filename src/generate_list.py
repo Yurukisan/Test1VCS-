@@ -1,6 +1,7 @@
 import random
 def generate_list():
     alist = [x for x in range (random.randint (-10, 10)) ]
+    assert alist
     return alist
     
 """
